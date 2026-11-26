@@ -1,6 +1,3 @@
--- Original course schema and Generation 1 seed (#1-151).
--- To complete the project start data, run scripts/setup-gen2.js after loading this file.
-
 DROP DATABASE IF EXISTS pokemon;
 
 CREATE DATABASE pokemon;
@@ -126,3 +123,143 @@ VALUES
 (75, 'Graveler', 35, 45, 45, 115, 95, 55, 'Rock', 'Ground', 8),
 (76, 'Golem', 45, 65, 55, 130, 120, 80, 'Rock', 'Ground', 8),
 (77, 'Ponyta', 90, 65, 65, 55, 85, 50, 'Fire', NULL, 1),
+(78, 'Rapidash', 105, 80, 80, 70, 100, 65, 'Fire', NULL, 1),
+(79, 'Slowpoke', 15, 40, 40, 65, 65, 90, 'Water', 'Psychic', 1),
+(80, 'Slowbro', 30, 80, 100, 110, 75, 95, 'Water', 'Psychic', 2),
+(81, 'Magnemite', 45, 55, 95, 70, 35, 25, 'Electric', 'Steel', 7),
+(82, 'Magneton', 70, 70, 120, 95, 60, 50, 'Electric', 'Steel', 7),
+(83, 'Farfetchd', 60, 62, 58, 55, 65, 52, 'Normal', 'Flying', 3),
+(84, 'Doduo', 75, 35, 35, 45, 85, 35, 'Normal', 'Flying', 2),
+(85, 'Dodrio', 100, 60, 60, 70, 110, 60, 'Normal', 'Flying', 2),
+(86, 'Seel', 45, 70, 45, 55, 45, 65, 'Water', NULL, 5),
+(87, 'Dewgong', 70, 95, 70, 80, 70, 90, 'Water', 'Ice', 5),
+(88, 'Grimer', 25, 50, 40, 50, 80, 80, 'Poison', NULL, 7),
+(89, 'Muk', 50, 100, 65, 75, 105, 105, 'Poison', NULL, 7),
+(90, 'Shellder', 40, 25, 45, 100, 65, 30, 'Water', NULL, 5),
+(91, 'Cloyster', 70, 45, 85, 180, 95, 50, 'Water', 'Ice', 5),
+(92, 'Gastly', 80, 35, 100, 30, 35, 30, 'Ghost', 'Poison', 7),
+(93, 'Haunter', 95, 55, 115, 45, 50, 45, 'Ghost', 'Poison', 8),
+(94, 'Gengar', 110, 75, 130, 60, 65, 60, 'Ghost', 'Poison', 8),
+(95, 'Onix', 70, 45, 30, 160, 45, 35, 'Rock', 'Ground', 4),
+(96, 'Drowzee', 42, 90, 43, 45, 48, 60, 'Psychic', NULL, 8),
+(97, 'Hypno', 67, 115, 73, 70, 73, 85, 'Psychic', NULL, 8),
+(98, 'Krabby', 50, 25, 25, 90, 105, 30, 'Water', NULL, 6),
+(99, 'Kingler', 75, 50, 50, 115, 130, 55, 'Water', NULL, 6),
+(100, 'Voltorb', 100, 55, 55, 50, 30, 40, 'Electric', NULL, 7),
+(101, 'Electrode', 140, 80, 80, 70, 50, 60, 'Electric', NULL, 7),
+(102, 'Exeggcute', 40, 45, 60, 80, 40, 60, 'Grass', 'Psychic', 7),
+(103, 'Exeggutor', 55, 65, 125, 85, 95, 95, 'Grass', 'Psychic', 2),
+(104, 'Cubone', 35, 50, 40, 95, 50, 50, 'Ground', NULL, 2),
+(105, 'Marowak', 45, 80, 50, 110, 80, 60, 'Ground', NULL, 2),
+(106, 'Hitmonlee', 87, 110, 35, 53, 120, 50, 'Fighting', NULL, 8),
+(107, 'Hitmonchan', 76, 110, 35, 79, 105, 50, 'Fighting', NULL, 8),
+(108, 'Lickitung', 30, 75, 60, 75, 55, 90, 'Normal', NULL, 2),
+(109, 'Koffing', 35, 45, 60, 95, 65, 40, 'Poison', NULL, 7),
+(110, 'Weezing', 60, 70, 85, 120, 90, 65, 'Poison', NULL, 7),
+(111, 'Rhyhorn', 25, 30, 30, 95, 85, 80, 'Ground', 'Rock', 1),
+(112, 'Rhydon', 40, 45, 45, 120, 130, 105, 'Ground', 'Rock', 2),
+(113, 'Chansey', 50, 105, 35, 5, 5, 250, 'Normal', NULL, 2),
+(114, 'Tangela', 60, 40, 100, 115, 55, 65, 'Grass', NULL, 7),
+(115, 'Kangaskhan', 90, 80, 40, 80, 95, 105, 'Normal', NULL, 2),
+(116, 'Horsea', 60, 25, 70, 70, 40, 30, 'Water', NULL, 5),
+(117, 'Seadra', 85, 45, 95, 95, 65, 55, 'Water', NULL, 5),
+(118, 'Goldeen', 63, 50, 35, 60, 67, 45, 'Water', NULL, 5),
+(119, 'Seaking', 68, 80, 65, 65, 92, 80, 'Water', NULL, 5),
+(120, 'Staryu', 85, 55, 70, 55, 45, 30, 'Water', NULL, 5),
+(121, 'Starmie', 115, 85, 100, 85, 75, 60, 'Water', 'Psychic', 5),
+(122, 'Mr-mime', 90, 120, 100, 65, 45, 40, 'Psychic', 'Fairy', 8),
+(123, 'Scyther', 105, 80, 55, 80, 110, 70, 'Bug', 'Flying', 6),
+(124, 'Jynx', 95, 95, 115, 35, 50, 65, 'Ice', 'Psychic', 8),
+(125, 'Electabuzz', 105, 85, 95, 57, 83, 65, 'Electric', NULL, 8),
+(126, 'Magmar', 93, 85, 100, 57, 95, 65, 'Fire', NULL, 8),
+(127, 'Pinsir', 85, 70, 55, 100, 125, 65, 'Bug', NULL, 6),
+(128, 'Tauros', 110, 70, 40, 95, 100, 75, 'Normal', NULL, 1),
+(129, 'Magikarp', 80, 20, 15, 55, 10, 20, 'Water', NULL, 5),
+(130, 'Gyarados', 81, 100, 60, 79, 125, 95, 'Water', 'Flying', 4),
+(131, 'Lapras', 60, 95, 85, 80, 85, 130, 'Water', 'Ice', 5),
+(132, 'Ditto', 48, 48, 48, 48, 48, 48, 'Normal', NULL, 7),
+(133, 'Eevee', 55, 65, 45, 50, 55, 55, 'Normal', NULL, 1),
+(134, 'Vaporeon', 65, 95, 110, 60, 65, 130, 'Water', NULL, 1),
+(135, 'Jolteon', 130, 95, 110, 60, 65, 65, 'Electric', NULL, 1),
+(136, 'Flareon', 65, 110, 95, 60, 130, 65, 'Fire', NULL, 1),
+(137, 'Porygon', 40, 75, 85, 70, 60, 65, 'Normal', NULL, 7),
+(138, 'Omanyte', 35, 55, 90, 100, 40, 35, 'Rock', 'Water', 5),
+(139, 'Omastar', 55, 70, 115, 125, 60, 70, 'Rock', 'Water', 5),
+(140, 'Kabuto', 55, 45, 55, 90, 80, 30, 'Rock', 'Water', 5),
+(141, 'Kabutops', 80, 70, 65, 105, 115, 60, 'Rock', 'Water', 2),
+(142, 'Aerodactyl', 130, 75, 60, 65, 105, 80, 'Rock', 'Flying', 3),
+(143, 'Snorlax', 30, 110, 65, 65, 110, 160, 'Normal', NULL, 2),
+(144, 'Articuno', 85, 125, 95, 100, 85, 90, 'Ice', 'Flying', 3),
+(145, 'Zapdos', 100, 90, 125, 85, 90, 90, 'Electric', 'Flying', 3),
+(146, 'Moltres', 90, 85, 125, 90, 100, 90, 'Fire', 'Flying', 3),
+(147, 'Dratini', 50, 50, 50, 45, 64, 41, 'Dragon', NULL, 4),
+(148, 'Dragonair', 70, 70, 70, 65, 84, 61, 'Dragon', NULL, 4),
+(149, 'Dragonite', 80, 100, 100, 95, 134, 91, 'Dragon', 'Flying', 3),
+(150, 'Mewtwo', 130, 90, 154, 90, 110, 106, 'Psychic', NULL, 8),
+(151, 'Mew', 100, 100, 100, 100, 100, 100, 'Psychic', NULL, 2);
+
+CREATE TABLE trainer (
+    trainer_id INT PRIMARY KEY AUTO_INCREMENT,
+    trainer_name VARCHAR(50) NOT NULL,
+    age INT,
+    hometown VARCHAR(50)
+);
+
+INSERT INTO trainer
+(trainer_name, age, hometown)
+VALUES
+('Ash', 10, 'Pallet Town'),
+('Misty', 10, 'Cerulean City'),
+('Brock', 15, 'Pewter City'),
+('Gary', 10, 'Pallet Town'),
+('Jessie', 20, 'Unknown'),
+('James', 20, 'Unknown');
+
+CREATE TABLE trainer_pokemon (
+    trainer_id INT,
+    pokedex_number INT,
+
+    PRIMARY KEY (trainer_id, pokedex_number),
+
+    FOREIGN KEY (trainer_id)
+        REFERENCES trainer(trainer_id),
+
+    FOREIGN KEY (pokedex_number)
+        REFERENCES pokemon(pokedex_number)
+);
+
+INSERT INTO trainer_pokemon
+(trainer_id, pokedex_number)
+VALUES
+
+-- Ash
+(1, 25),   -- Pikachu
+(1, 1),    -- Bulbasaur
+(1, 6),    -- Charizard
+(1, 12),   -- Butterfree
+(1, 143),  -- Snorlax
+
+-- Misty
+(2, 54),   -- Psyduck
+(2, 120),  -- Staryu
+(2, 121),  -- Starmie
+(2, 118),  -- Goldeen
+
+-- Brock
+(3, 74),   -- Geodude
+(3, 95),   -- Onix
+(3, 41),   -- Zubat
+
+-- Gary
+(4, 9),    -- Blastoise
+(4, 133),  -- Eevee
+(4, 59),   -- Arcanine
+(4, 25),   -- Pikachu
+
+-- Jessie
+(5, 24),   -- Arbok
+(5, 52),   -- Meowth
+
+-- James
+(6, 110),  -- Weezing
+(6, 52);   -- Meowth
